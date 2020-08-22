@@ -22269,6 +22269,14 @@ video {
   background-color: rgba(99, 179, 237, var(--bg-opacity));
 }
 
+.nav-link {
+  display: block;
+  margin-top: 1rem;
+  --text-opacity: 1;
+  color: #b2f5ea;
+  color: rgba(178, 245, 234, var(--text-opacity));
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
